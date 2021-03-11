@@ -1,0 +1,10 @@
+{
+  "main": "./integration.js",
+  "name": "youtube",
+  "version": "3.0.0-beta",
+  "private": true,
+  "dependencies": {
+    "async": "^3.2.0",
+    "googleapis": "^67.1.1"
+  }
+}
