@@ -4,6 +4,8 @@
 
 Polarity's youtube integration gives users the ability to search for and view youtube videos.  In the search bar type `yt:` followed by your search term.  The integration will return the 30 most relevant videos.
 
+<img src="images/overlay.png" width="50%">
+
 ## Installation Instructions
 
 Installation instructions for integrations are provided on the [PolarityIO GitHub Page](https://polarityio.github.io/).
