@@ -2,6 +2,7 @@
 
 ![image](https://img.shields.io/badge/status-beta-green.svg)
 ![mode:on demand only](https://img.shields.io/badge/mode-on%20demand%20only-blue.svg)
+![search](https://img.shields.io/badge/search-yt:%3Csearch%3E-orange.svg)
 
 Polarity's youtube integration gives users the ability to search for and view youtube videos.  In the search bar type `yt:` followed by your search term.  The integration will return the 30 most relevant videos.
 
