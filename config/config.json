@@ -1,0 +1,40 @@
+{
+  "name": "Youtube",
+  "acronym": "YT",
+  "description": "Search and watch videos from Youtube",
+  "customTypes": [
+    {
+      "key": "yt:youtube",
+      "regex": "yt:[\\s\\S]+"
+    }
+  ],
+  "defaultColor": "light-gray",
+  "onDemandOnly": true,
+  "styles": [
+    "./styles/youtube.less"
+  ],
+  "block": {
+    "component": {
+      "file": "./components/youtube-block.js"
+    },
+    "template": {
+      "file": "./templates/youtube-block.hbs"
+    }
+  },
+  "auth": {
+    "key": "./key/privatekey.json"
+  },
+  "request": {
+    "cert": "",
+    "key": "",
+    "passphrase": "",
+    "ca": "",
+    "proxy": "",
+    "rejectUnauthorized": true
+  },
+  "logging": {
+    "level": "info"
+  },
+  "options": [],
+  "entityTypes": []
+}
