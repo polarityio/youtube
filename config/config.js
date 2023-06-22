@@ -26,7 +26,7 @@ module.exports = {
   customTypes: [
     {
       key: 'yt:youtube',
-      regex: /yt:[\s\S]+/
+      regex: /yt:[\s\S]{2,2048}\S/
     }
   ],
   defaultColor: 'light-gray',
