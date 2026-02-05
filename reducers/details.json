@@ -1,0 +1,51 @@
+{
+  "root": {
+    "path": "",
+    "on_null": "return_empty"
+  },
+  "pipeline": [
+    {
+      "op": "copy",
+      "from": "[].id",
+      "to": "reduced_results.videos[].video_id"
+    },
+    {
+      "op": "copy",
+      "from": "[].snippet.title",
+      "to": "reduced_results.videos[].title"
+    },
+    {
+      "op": "copy",
+      "from": "[].snippet.description",
+      "to": "reduced_results.videos[].description"
+    },
+    {
+      "op": "copy",
+      "from": "[].snippet.channelId",
+      "to": "reduced_results.videos[].channel_id"
+    },
+    {
+      "op": "copy",
+      "from": "[].snippet.channelTitle",
+      "to": "reduced_results.videos[].channel_name"
+    },
+    {
+      "op": "copy",
+      "from": "[].snippet.publishedAt",
+      "to": "reduced_results.videos[].published_date"
+    },
+    {
+      "op": "copy",
+      "from": "[].snippet.thumbnails.medium.url",
+      "to": "reduced_results.videos[].thumbnail_url"
+    },
+    {
+      "op": "prune",
+      "strategy": "empty_values",
+      "target": "reduced_results"
+    }
+  ],
+  "output": {
+    "result": "$working.reduced_results"
+  }
+}

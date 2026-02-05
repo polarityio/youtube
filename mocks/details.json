@@ -1,0 +1,133 @@
+[
+  {
+    "kind": "youtube#searchResult",
+    "etag": "N7cY_z5Xr4Lq7kH3mP9vB2wQ8sT",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "dQw4w9WgXcQ"
+    },
+    "snippet": {
+      "publishedAt": "2024-03-15T14:30:22Z",
+      "channelId": "UCuAXFkgsw1L7xaCfnd5JJOw",
+      "title": "CVE-2024-1234 Exploitation Tutorial - Windows Kernel Vulnerability",
+      "description": "Detailed walkthrough of CVE-2024-1234 exploitation techniques. This video demonstrates the vulnerability in Windows kernel drivers and shows proof-of-concept code for privilege escalation. Includes YARA rules and IOCs for detection.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/dQw4w9WgXcQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/dQw4w9WgXcQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Red Team Security Labs",
+      "liveBroadcastContent": "none",
+      "publishTime": "2024-03-15T14:30:22Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "A1bC2dE3fG4hI5jK6lM7nO8pQ9rS",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "xvFZjo5PgG0"
+    },
+    "snippet": {
+      "publishedAt": "2024-02-28T09:15:47Z",
+      "channelId": "UC5WjLv8nwF9T3gK8rX4pY2w",
+      "title": "Ransomware Analysis: BlackCat (ALPHV) Infection Chain 2024",
+      "description": "Deep dive into BlackCat ransomware infection methodology. Analysis includes network traffic capture, C2 communication patterns, and encryption behavior. IOCs: 192.168.1.100, malware.exe (MD5: 5d41402abc4b2a76b9719d911017c592).",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/xvFZjo5PgG0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/xvFZjo5PgG0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/xvFZjo5PgG0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "MalwareTech Research",
+      "liveBroadcastContent": "none",
+      "publishTime": "2024-02-28T09:15:47Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "Z9yX8wV7uT6sR5qP4oN3mL2kJ1i",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "a1b2c3d4e5f"
+    },
+    "snippet": {
+      "publishedAt": "2024-01-10T16:45:00Z",
+      "channelId": "UCmK3Tr9PqL8nW4vY5eZ2gHw",
+      "title": "APT29 (Cozy Bear) TTPs and Detection Strategies",
+      "description": "Analysis of APT29 tactics, techniques, and procedures observed in recent campaigns. Covers initial access methods, lateral movement patterns, and persistence mechanisms. Includes Sigma rules for SIEM detection.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/a1b2c3d4e5f/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/a1b2c3d4e5f/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/a1b2c3d4e5f/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "CrowdStrike Intelligence",
+      "liveBroadcastContent": "none",
+      "publishTime": "2024-01-10T16:45:00Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "H3gF2eD1cB0aZ9yX8wV7uT6sR5q",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "qRsT9uVwXyZ"
+    },
+    "snippet": {
+      "publishedAt": "2023-12-20T11:20:33Z",
+      "channelId": "UCpL4kN8mO6vW3sY9eZ1hG2w",
+      "title": "",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/qRsT9uVwXyZ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/qRsT9uVwXyZ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        }
+      },
+      "channelTitle": "Security Researcher Unknown",
+      "liveBroadcastContent": "upcoming",
+      "publishTime": "2023-12-20T11:20:33Z"
+    }
+  }
+]

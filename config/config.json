@@ -36,5 +36,10 @@
     "level": "info"
   },
   "options": [],
-  "entityTypes": []
+  "entityTypes": [],
+  "reducer": {
+    "details": {
+      "file": "./reducers/details.json"
+    }
+  }
 }
